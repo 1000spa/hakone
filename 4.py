@@ -10,4 +10,6 @@ for a in range(len(ListA)):
     if RevListA == ListA[a]:
         a = int(RevListA)
         arr.append(a)
+
+
 print(max(arr))
